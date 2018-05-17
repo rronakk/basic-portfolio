@@ -39,7 +39,8 @@ h3{
     margin: 0px;
 }
 hr{
-    color: #777777;
+    background: #949393;
+    height: 2px;
     margin: 2px 10px 20px 10px;
     border-top: 3px;
 }
@@ -55,6 +56,10 @@ article{
 }
 p{
     line-height: 1.6;
+}
+
+label, p {
+    color: #777777;
 }
 
 a{
@@ -74,6 +79,31 @@ footer{
     position: absolute;
     left: 0px;
     width: 100%;
+}
+form{
+    padding: 20px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    resize: vertical;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #2a6b68;
 }
 #copyright{
     margin-top: 20px;
