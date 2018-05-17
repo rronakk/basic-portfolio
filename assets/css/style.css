@@ -1,0 +1,80 @@
+header {
+    width: 100%;
+    background: #ffffff; 
+       
+}
+#top-line{
+    height: 60px;
+    width: 960px;
+    padding: 0 10%;
+    margin: auto;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.menu{
+    float: right;
+    width: 100px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #777777;
+    text-align: right;
+}
+
+#header-title{
+    float: left;
+    width: 150px;
+    font-size: 26px;
+    background: #4aaaa5;
+    color: white;
+    padding: 15px;
+}
+section{
+    padding:10px 0 100px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    color: #4aaaa5;
+    padding: 20px 0 10px 10px;
+    margin: 0px;
+}
+hr{
+    color: #777777;
+    margin: 2px 10px 20px 10px;
+    border-top: 3px;
+}
+article{
+    background: white;
+    margin: auto;
+    width: 960px;
+
+}
+.article-img{
+    float: left;
+    margin: 10px;
+}
+p{
+    line-height: 1.6;
+}
+
+a{
+    text-decoration: none;
+}
+.footer-divider{
+    color: #4aaaa5;
+    margin: 0px; 
+    border: 3px solid;
+}
+footer{
+    height: 50px;
+    background: #666666;
+    text-align: center;
+    color: #b1abab;
+    bottom: 0;
+    position: absolute;
+    left: 0px;
+    width: 100%;
+}
+#copyright{
+    margin-top: 20px;
+}
